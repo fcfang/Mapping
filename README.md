@@ -21,6 +21,6 @@ closer to the equater and conversely smaller areas approaching the poles. After 
 assumption that the grid was draw by drawing equidistant lines on a flat map. Though how that works in real life, I'm sure that southerly farmers are getting larger plots of land than northerly farmers...
 but I digress.
 
-You can use the included KML in various apps like Organic Maps or GAIA GPS (Look for them in Google Play and Apple's App Store) to map your curent location to the KML grid. 
+You can use the included KML in various apps like Organic Maps (supposedly) or GAIA GPS (tested  works!) (Look for them in Google Play and Apple's App Store) to map your curent location to the KML grid. 
 
 Please send feedback as to accuracy and I can make adjustments as needed.
