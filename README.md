@@ -22,7 +22,5 @@ assumption that the grid was draw by drawing equidistant lines on a flat map. Th
 but I digress.
 
 You can use the included KML in various apps like Organic Maps or GAIA GPS (Look for them in Google Play and Apple's App Store) to map your curent location to the KML grid. 
-You can even use aprs.fi to load the KML dynaically and have a APRS enabled map with the grid by going to dynamically linking the KML
 
-eg. https://aprs.fi/#!lat=44.04840&lng=-92.49480&kml=https%3A%2F%2Fgist.github.com%2Ffcfang%2F1ffee5d7ea2ec49d4af8bafc65daabbd.js
 Please send feedback as to accuracy and I can make adjustments as needed.
