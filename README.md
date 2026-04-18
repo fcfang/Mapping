@@ -1,4 +1,4 @@
-# OlmstedCountyEmergencyGridMap
+# Olmsted County Emergency Grid Map
 Olmsted County Emergency Grid Mapping used for SkyWarn/ARES by the Rochester Area Radio Club
 
 During a SkyWarn event, I was reminded that it's not super easy to figure out where you are on the Olmsted Emergency Grid. The Elmers all know where they're at from past experience but newbies are left guessing especially if you're close to intersections of grid lines. It's also hard - maybe it's just me - to match your location to the Emergency Map jpg.
