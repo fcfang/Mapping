@@ -11,16 +11,18 @@ How to use it: https://youtu.be/FX-L3eXPkqA
 
 Map URL : https://www.google.com/maps/d/u/0/viewer?mid=12dEXO-fAB4wVuYCCxGvkwaohL-em2CU
 
+If you use this on an Android or Apple IOS device, be aware that if you have chosen to open map links with the Google Maps app, this will likely not go great for you. When you arrive at the web page and click on the icon that looks like a "fullscreen" icon, tapping that will open the Google Maps app which is fully locked down and will not display the grid. If you want the web functionality, you have have to disable the Open by Default setting in your App settings. On Samsung phones, it is under Settings > Apps > Maps > Open by Default and you have to uncheck the setting that says "Open map links with this App". Similarly on Pixels, it is under Settings > All Apps > See All XXX Apps > Maps > Open by Default > Choose "in your browser" instead of "In the app". Something similar on IOS devices but I don't have one to test.
+
 Included in this repo are the generated KML and KMZ.
-The KMZ is essentially the rarchams.org jpeg map super imposed over Google Earth Pro and from this I gathered the master corner coordinates for the map. 
-Then those coordinates are used in the create_grid.py script to create the grid positions and export the KML.
+The KMZ is essentially the rarchams.org jpeg map super imposed over Google Earth Pro and from this I gathered the master corner coordinates for the map. Then those coordinates are used in the create_grid.py script to create the grid positions and export the KML. If you like to use Google Earth for your mapping, simply open it and choose File > Import and choose the kmz file. It will show up on your left navigation bar. If you want to make changes, create a branch and go for it. Ping me and I'll be happy to merge the changes in if they add to the project. For those who might be looking at the code and wondering why it's so complexly weird, I actually modify the grid to remove a bunch of them and modify Y1 and Y13 statically because, well, they're weird. So it's not just a matter of changing the north, south, east and west coords and it'll work for your grid. Lemme know if you need a more generic create a rectangular grid type of script.
+
+For those that don't want to mess with your Google Maps settings, GAIA GPS is a good alternative. You can install the app from the Google Play Store or Apple App Store and once you have it installed and opened, you can simply link by clicking this link from your device : 
+https://www.gaiagps.com/map/?loc=9.3/-92.3737/44.0133&pubLink=Dylivm9uFxiTmYJSnP3C2UdN&folderId=68454cfb-5354-4d96-9672-67d2fb9f60ac
+The grid will become magically become available to you. No, I do not have the premium version of Gaia GPS but for those who might be averse to signing up for stuff, you will have to create an Gaia GPS account.
 
 The create_equal_grids.py was an experiment that came about when I noticed in Google Earth that my grids were getting bigger as they moved south towards the equator. 
-Apprarently this is what happens when you take a round world and flatten it on a piece of paper and then draw geometric grids on it. The seemingly equal grids actually encompass a larger area 
-closer to the equater and conversely smaller areas approaching the poles. After I generated the KML and looked at the results in Google Earth, it didn't match up to the original jpeg so I'm making an 
-assumption that the grid was draw by drawing equidistant lines on a flat map. Though how that works in real life, I'm sure that southerly farmers are getting larger plots of land than northerly farmers...
+Apprarently this is what happens when you take a round world and flatten it on a piece of paper and then draw geometric grids on it. The seemingly equal grids actually encompass a larger area closer to the equator and conversely smaller areas approaching the poles. After I generated the KML and looked at the results in Google Earth, it didn't match up to the original jpeg so I'm making an 
+assumption that the grid was draw by drawing equidistant lines on a flat map. Though how that works in real life, I'm sure that southerly farmers aren't getting larger plots of land than their northerly bretheren...
 but I digress.
-
-You can use the included KML in various apps like Organic Maps (supposedly) or GAIA GPS (tested  works!) (Look for them in Google Play and Apple's App Store) to map your curent location to the KML grid. 
 
 Please send feedback as to accuracy and I can make adjustments as needed.
